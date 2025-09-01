@@ -21,7 +21,7 @@ on:
           - "false"
 
 jobs:
-  terraform:----jobname
+  terraform:
     name: Terraform VPC Workflow
     runs-on: ubuntu-latest
     defaults:
@@ -30,7 +30,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4----GitHub.com/marketplace
+        uses: actions/checkout@v4
 
       - name: Set up Terraform
         uses: hashicorp/setup-terraform@v3
